@@ -6,7 +6,7 @@ import joblib
 # ===========================
 # Load Models & Dataset
 # ===========================
-emi_eligibility_model = joblib.load("C:/Users/Mitali/OneDrive/Desktop/Python WorkSpace/emi_prediction/best_model_EMI_Eligibility_Prediction.pkl")
+emi_eligibility_model = joblib.load("best_model_EMI_Eligibility_Prediction.pkl")
 max_emi_model = joblib.load("C:/Users/Mitali/OneDrive/Desktop/Python WorkSpace/emi_prediction/best_regressor_model_max_emi _amount.pkl")
 
 # Load dataset for visualization
@@ -238,3 +238,4 @@ else:
 
     st.markdown("---")
     st.caption("⚙️ Powered by trained ML models + Visualization Dashboard")
+
